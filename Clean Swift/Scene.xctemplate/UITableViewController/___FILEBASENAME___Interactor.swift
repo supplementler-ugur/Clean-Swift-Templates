@@ -28,7 +28,7 @@ class ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___BusinessLogic,
     // MARK: Do something
 
     func doSomething(request: ___VARIABLE_sceneName___.Something.Request) {
-        worker?.doSomeWork()
+        worker.doSomeWork()
 
         let response = ___VARIABLE_sceneName___.Something.Response()
         presenter?.presentSomething(response: response)
